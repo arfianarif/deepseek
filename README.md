@@ -6,9 +6,9 @@
   - [x] Store thread in DB
   - [x] Read and list threads from DB
 - [ ] Routing
-  - [ ] Setup `react-router`
-  - [ ] Dynamic Routing
-  - [ ] Highlight active thread
+  - [x] Setup `react-router`
+  - [x] Dynamic Routing
+  - [x] Highlight active thread
 - [ ] Chat
   - [ ] Stream message
   - [ ] Stream thought
