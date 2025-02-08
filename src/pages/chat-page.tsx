@@ -1,4 +1,4 @@
-import { Menu } from 'lucide-react'
+import { useState } from 'react'
 import { ChatMessage } from '~/components/ChatMessage'
 import { Button } from '~/components/ui/button'
 import { Textarea } from '~/components/ui/textarea'
@@ -9,6 +9,9 @@ type Message = {
 }
 
 const ChatPage = () => {
+  const [messageInput, setMessageInput] = useState('')
+  const [streamMessage, setStreamMessage] = useState('')
+
   const handleSubmit = async () => {
     alert('chat')
   }
@@ -51,6 +54,8 @@ const ChatPage = () => {
             className='flex-1'
             placeholder='Type your message here...'
             rows={5}
+            value={messageInput}
+            onClick={(e) => setMessageInput(e.target.value)}
           />
           <Button onClick={handleSubmit} type='button'>
             Send

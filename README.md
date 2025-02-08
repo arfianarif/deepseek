@@ -5,7 +5,7 @@
   - [x] Create thread from dialog
   - [x] Store thread in DB
   - [x] Read and list threads from DB
-- [ ] Routing
+- [x] Routing
   - [x] Setup `react-router`
   - [x] Dynamic Routing
   - [x] Highlight active thread
