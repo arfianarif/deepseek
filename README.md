@@ -1,9 +1,10 @@
 # Features
-- [ ] Threads Sidebar
+
+- [x] Threads Sidebar
   - [x] Install and initialized DB
-  - [ ] Create thread from dialog
-  - [ ] Store thread in DB
-  - [ ] Read and list threads from DB
+  - [x] Create thread from dialog
+  - [x] Store thread in DB
+  - [x] Read and list threads from DB
 - [ ] Routing
   - [ ] Setup `react-router`
   - [ ] Dynamic Routing
